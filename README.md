@@ -156,7 +156,7 @@ mkdir screenshots
 ![Running the Script](screenshots/menu.png)
 
 - Description of what is done here
-When the script is executed, it presents the user with a simple menu displaying four options: View tasks, Add task, Delete task, and Exit. The program waits for the user's input via the `read` command and loops until "Exit" is selected.
+> When the script is executed, it presents the user with a simple menu displaying four options: View tasks, Add task, Delete task, and Exit. The program waits for the user's input via the `read` command and loops until "Exit" is selected.
 
 ### 2. Adding a Task
 
@@ -165,7 +165,7 @@ When the script is executed, it presents the user with a simple menu displaying 
 ![Adding a New Task](screenshots/add-task.png)
 
 - Description of what is done here
-Upon choosing the "Add" option (2), the user is prompted to enter a task. The entered text is appended via `echo` to `~/todo.txt`. This ensures tasks persist even after the script is closed.
+> Upon choosing the "Add" option (2), the user is prompted to enter a task. The entered text is appended via `echo` to `~/todo.txt`. This ensures tasks persist even after the script is closed.
 
 ### 3. Viewing All Tasks
 
@@ -174,7 +174,7 @@ Upon choosing the "Add" option (2), the user is prompted to enter a task. The en
 ![Viewing Tasks](screenshots/view-tasks.png)
 
 - Description of what is done here
-Selecting option (1) shows the current tasks stored in the `todo.txt` file. The `nl` (number lines) command is used to display task numbers alongside each task, making them easy to reference for deletion.
+> Selecting option (1) shows the current tasks stored in the `todo.txt` file. The `nl` (number lines) command is used to display task numbers alongside each task, making them easy to reference for deletion.
 
 ### 4. Viewing All Tasks
 
@@ -183,7 +183,7 @@ Selecting option (1) shows the current tasks stored in the `todo.txt` file. The 
 ![Deleting a Task](screenshots/delete-task.png)
 
 - Description of what is done here
-Choosing option (3) prompts the user to enter the task number (as shown via `nl`). The `sed -i` command is then used to delete the task at the specified line number from the file. The list updates accordingly.
+> Choosing option (3) prompts the user to enter the task number (as shown via `nl`). The `sed -i` command is then used to delete the task at the specified line number from the file. The list updates accordingly.
 
 
 ### 5. Exiting the Script
@@ -193,7 +193,7 @@ Choosing option (3) prompts the user to enter the task number (as shown via `nl`
 ![Exiting the Program](screenshots/exit.png)
    
 - Description of what is done here
-Choosing option 4 terminates the loop and exits the script gracefully with a friendly message.
+> Choosing option 4 terminates the loop and exits the script gracefully with a friendly message.
 
 ## 🧠 Key Commands Used
 
