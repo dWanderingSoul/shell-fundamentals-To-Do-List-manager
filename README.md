@@ -20,6 +20,7 @@ shell-fundamentals-To-Do-List-manager/
 ├── todo.sh
 ├── README.md
 └── screenshots/
+    ├── created-script.png
     ├── menu.png
     ├── add-task.png
     ├── view-tasks.png
@@ -73,6 +74,7 @@ chmod +x todo.sh
 nano todo.sh
 ```
 ![Creating Script](screenshots/created-script.png)
+
 Added the following code to the script file 
 
 
