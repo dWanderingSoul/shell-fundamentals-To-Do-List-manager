@@ -72,7 +72,7 @@ touch todo.sh
 chmod +x todo.sh
 nano todo.sh
 ```
-
+![Creating Script](screenshots/createdscript.png)
 Added the following code to the script file 
 
 
@@ -156,7 +156,7 @@ mkdir screenshots
 ![Running the Script](screenshots/menu.png)
 
 - Description of what is done here
-> When the script is executed, it presents the user with a simple menu displaying four options: View tasks, Add task, Delete task, and Exit. The program waits for the user's input via the `read` command and loops until "Exit" is selected.
+> When the script is executed using the command `./todo.sh`, it presents the user with a simple menu displaying four options: View tasks, Add task, Delete task, and Exit. The program waits for the user's input via the `read` command and loops until "Exit" is selected.
 
 ### 2. Adding a Task
 
