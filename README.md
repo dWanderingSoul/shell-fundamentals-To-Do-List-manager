@@ -72,7 +72,7 @@ touch todo.sh
 chmod +x todo.sh
 nano todo.sh
 ```
-![Creating Script](screenshots/createdscript.png)
+![Creating Script](screenshots/created-script.png)
 Added the following code to the script file 
 
 
