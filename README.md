@@ -38,10 +38,8 @@ shell-fundamentals-To-Do-List-manager/
 I created a new GitHub repository named `shell-fundamentals-To-Do-List-manager` and cloned the repository locally for this project to document and track progress. It contains a `README.md` file for detailed task descriptions and a `screenshots/` folder for all required visuals. Then pushed this to GitHub after completing the script and adding screenshots.
 
 ``` bash
-mkdir shell-fundamentals-To-Do-List-manager
+git clone https://github.com/dWanderingSoul/shell-fundamentals-To-Do-List-manager.git
 cd shell-fundamentals-To-Do-List-manager
-git init 
-git clone https://https://github.com/dWanderingSoul/shell-fundamentals-To-Do-List-manager.git
 touch README.md
 ```
 
